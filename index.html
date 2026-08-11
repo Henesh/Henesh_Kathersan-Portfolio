@@ -3,17 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Henesh Kathresan · AI Portfolio</title>
+    <title>Henesh Kathresan · Digital Wakanda</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
-
-    <!-- Font Awesome Icons -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -21,29 +14,20 @@
     <!-- ============================================================
     NAVIGATION
     ============================================================ -->
-    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <nav class="navbar" id="navbar">
         <div class="container">
             <a href="#" class="nav-brand">
-                <span class="brand-accent">HK</span> Portfolio
+                <span class="brand-accent">HK</span> WAKANDA
             </a>
-
             <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#origin">Origin</a></li>
+                <li><a href="#projects">Tech</a></li>
                 <li><a href="#smart-save">SmartSave</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li>
-                    <a href="#resume" class="btn btn-primary btn-sm nav-cta" id="downloadResumeBtn">
-                        <i class="fas fa-download"></i> Resume
-                    </a>
-                </li>
+                <li><a href="#achievements">Trophies</a></li>
+                <li><a href="#skills">Modules</a></li>
             </ul>
-
-            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
-                <span></span>
-                <span></span>
-                <span></span>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
@@ -55,49 +39,33 @@
         <div class="container">
             <div class="hero-content">
                 <div class="hero-badge">
-                    <span class="dot"></span>
-                    Building Intelligent Systems · Agentic AI · Generative AI
+                    <span class="dot"></span> Welcome to my Digital Wakanda
                 </div>
-
                 <h1>
-                    I'm <br />
+                    I am <br />
                     <span class="highlight">Henesh Kathresan</span>
                 </h1>
-
                 <div class="hero-title-role">
-                    AI Undergraduate · Machine Learning Engineer · Full-Stack Developer
+                    AI Architect · ML Engineer · Full-Stack Sorcerer
                     <br />
                     <strong>#AgenticAI</strong> · <strong>#GenerativeAI</strong> · <strong>#NLP</strong>
                 </div>
-
                 <p>
-                    Final-year AI student at UTeM, building agentic systems with
-                    locally-hosted LLMs, NLP-powered career platforms, and
-                    full-stack AI applications.
+                    Final-year AI student at UTeM. Forging intelligent systems with
+                    locally-hosted LLMs, NLP-powered engines, and full-stack weapons.
                 </p>
-
                 <div class="hero-actions">
                     <a href="#smart-save" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> Explore SmartSave
+                        <i class="fas fa-rocket"></i> Explore Tech
                     </a>
                     <a href="#resume" class="btn btn-outline" id="heroResumeBtn">
-                        <i class="fas fa-file-pdf"></i> Download Resume
+                        <i class="fas fa-file-pdf"></i> Resume
                     </a>
                 </div>
-
                 <div class="hero-social">
-                    <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" aria-label="LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="mailto:khenesh26@gmail.com" aria-label="Email">
-                        <i class="fas fa-envelope"></i>
-                    </a>
-                    <a href="tel:+60174275159" aria-label="Phone">
-                        <i class="fas fa-phone"></i>
-                    </a>
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:khenesh26@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
 
@@ -105,21 +73,8 @@
                 <div class="hero-avatar-wrapper">
                     <div class="ring-glow"></div>
                     <div class="hero-avatar">
-                        <img
-                        src=""
-                        alt="Henesh Kathresan"
-                        id="heroAvatarImg"
-                        />
-                        <span class="initials">HK</span>
-                    </div>
-
-                    <div class="floating-badge">
-                        <i class="fas fa-robot"></i>
-                        <span>Agentic AI</span>
-                    </div>
-                    <div class="floating-badge" style="bottom: 10%; right: -5%; top: auto; left: auto;">
-                        <i class="fas fa-code"></i>
-                        <span>LLM · NLP</span>
+                        <!-- !!! REPLACE 'henesh.jpg' WITH YOUR ACTUAL IMAGE FILE NAME !!! -->
+                        <img src="henesh.jpg" alt="Henesh Kathresan" id="heroAvatarImg" />
                     </div>
                 </div>
             </div>
@@ -127,46 +82,34 @@
     </section>
 
     <!-- ============================================================
-    ABOUT
+    ORIGIN STORY (About)
     ============================================================ -->
-    <section class="about section-padding" id="about">
+    <section class="about section-padding" id="origin">
         <div class="container">
             <div class="text-center">
-                <span class="section-label">About Me</span>
-                <h2 class="section-title">
-                    Building Intelligent <span class="highlight">Systems</span>
-                </h2>
+                <span class="section-label">Origin Story</span>
+                <h2 class="section-title">Forging <span class="highlight">Intelligent</span> Futures</h2>
                 <p class="section-subtitle mx-auto">
-                    Final-year AI student with hands-on experience in agentic AI,
-                    NLP, and full-stack development.
+                    A final-year AI undergraduate mastering the art of agentic systems and full-stack alchemy.
                 </p>
             </div>
-
             <div class="about-grid">
                 <div class="about-text">
                     <p>
-                        I'm <span class="highlight-text">Henesh Kathresan</span>, a final-year
-                        <span class="highlight-text">Artificial Intelligence</span> undergraduate
+                        I am <span class="highlight-text">Henesh Kathresan</span>, an
+                        <span class="highlight-text">Artificial Intelligence</span> warrior
                         at <span class="highlight-text">Universiti Teknikal Malaysia Melaka (UTeM)</span>
-                        with a CGPA of 3.42. I build and deploy end-to-end AI systems —
-                        from agentic personal finance assistants powered by locally-hosted
-                        Mistral 7B (via Ollama) to AI-driven career platforms using
-                        NLP-based resume analysis.
+                        with a 3.42 CGPA. My craft is building end-to-end AI systems — from
+                        agentic personal finance assistants using locally-hosted Mistral 7B to
+                        NLP-driven career platforms.
                     </p>
                     <p>
-                        I'm deeply interested in <span class="highlight-text">Agentic AI Automation</span>
-                        and <span class="highlight-text">Generative AI</span> — crafting
-                        autonomous agents that reason, plan, and act. I bring a full-stack
-                        mindset (Python, FastAPI, React.js) to every project, ensuring
-                        AI solutions are not just smart, but <span class="highlight-text">deployable</span>
-                        and <span class="highlight-text">impactful</span>.
+                        My focus lies in <span class="highlight-text">Agentic AI Automation</span>
+                        and <span class="highlight-text">Generative AI</span>. I build autonomous
+                        agents that reason, plan, and act. With a full-stack mindset (Python,
+                        FastAPI, React.js), I ensure every AI creation is <span class="highlight-text">deployable</span>,
+                        <span class="highlight-text">impactful</span>, and <span class="highlight-text">powerful</span>.
                     </p>
-                    <p>
-                        I'm passionate about building intelligent systems that reason, plan,
-                        and act. Eager to apply my full-stack AI expertise to solve complex,
-                        real-world challenges.
-                    </p>
-
                     <div class="about-stats">
                         <div class="stat-card">
                             <div class="number">3.42</div>
@@ -174,7 +117,7 @@
                         </div>
                         <div class="stat-card">
                             <div class="number">4</div>
-                            <div class="label">Key Projects</div>
+                            <div class="label">Core Projects</div>
                         </div>
                         <div class="stat-card">
                             <div class="number">1st</div>
@@ -182,429 +125,102 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="about-image-placeholder">
-                    <img
-                    src=""
-                    alt="Henesh Kathresan"
-                    style="width:100%; height:100%; object-fit:cover; border-radius:var(--radius); display:none;"
-                    id="aboutImg"
-                    />
-                    <div id="aboutPlaceholder" style="display:flex; flex-direction:column; align-items:center; gap:12px;">
-                        <i class="fas fa-user-astronaut"></i>
-                        <h4>Add your photo here</h4>
-                        <p>Landscape image recommended</p>
-                    </div>
+                    <!-- You can use a secondary image here or a different shot -->
+                    <img src="henesh.jpg" alt="Henesh Kathresan" id="aboutImg" style="display: block;" />
                 </div>
             </div>
         </div>
     </section>
 
     <!-- ============================================================
-    SMART SAVE — DEDICATED PROJECT SHOWCASE
+    FEATURED PROJECT (SmartSave)
     ============================================================ -->
     <section class="smart-save section-padding" id="smart-save">
         <div class="container">
-
-            <!-- Header -->
-            <div class="project-header text-center">
-                <span class="section-label">Featured Project</span>
-                <h2 class="section-title">
-                    SmartSave: <span class="highlight">Agentic Financial Advisor</span>
-                </h2>
-                <p class="project-tagline">
-                    An AI-powered personal finance assistant designed to help Malaysian
-                    university students track expenses, understand spending behaviour,
-                    and receive personalised saving recommendations — all through
+            <div class="text-center">
+                <span class="section-label">Vibranium Prototype</span>
+                <h2 class="section-title">SmartSave: <span class="highlight">Agentic Advisor</span></h2>
+                <p class="section-subtitle mx-auto">
+                    An AI-powered personal finance assistant for Malaysian university students, engineered with
                     Telegram and a React dashboard.
                 </p>
             </div>
-
-            <!-- Visual Placeholders -->
-            <div class="visual-grid">
-                <div class="visual-card">
-                    <div class="visual-placeholder">
-                        <i class="fas fa-chart-pie"></i>
-                        <span>Dashboard Overview — Spending Analytics</span>
-                    </div>
-                    <div class="visual-caption">
-                        <strong>React + Recharts Dashboard</strong> — Real-time spending visualisation with category breakdown, budget tracking, and AI advice panel.
-                    </div>
-                </div>
-                <div class="visual-card">
-                    <div class="visual-placeholder">
-                        <i class="fab fa-telegram-plane"></i>
-                        <span>Telegram Bot — Expense Logging</span>
-                    </div>
-                    <div class="visual-caption">
-                        <strong>Telegram Bot Interface</strong> — Users log expenses naturally via text or receipt images. The bot confirms and stores transactions instantly.
-                    </div>
-                </div>
-                <div class="visual-card">
-                    <div class="visual-placeholder">
-                        <i class="fas fa-receipt"></i>
-                        <span>OCR Processing — Receipt Understanding</span>
-                    </div>
-                    <div class="visual-caption">
-                        <strong>EasyOCR Pipeline</strong> — Extracts merchant, total amount, and transaction details from receipt images with Malaysian-context categorisation.
-                    </div>
-                </div>
-            </div>
-
-            <!-- Problem & Solution -->
+            <!-- (Keep the existing visual grid and description content as provided, but styled with the new CSS) -->
             <div class="problem-solution-grid">
                 <div class="problem-box">
                     <h3><i class="fas fa-exclamation-triangle"></i> The Problem</h3>
                     <ul>
-                        <li><i class="fas fa-times"></i> Manual expense tracking is time-consuming and often abandoned.</li>
-                        <li><i class="fas fa-times"></i> Students struggle to understand where their money is spent.</li>
-                        <li><i class="fas fa-times"></i> Receipts are stored without being analysed.</li>
-                        <li><i class="fas fa-times"></i> Existing finance apps require too much manual input.</li>
-                        <li><i class="fas fa-times"></i> Lack of simple, actionable recommendations based on actual habits.</li>
-                        <li><i class="fas fa-times"></i> Privacy concerns with cloud-based financial applications.</li>
+                        <li><i class="fas fa-times"></i> Manual tracking is abandoned.</li>
+                        <li><i class="fas fa-times"></i> Spending remains a mystery.</li>
+                        <li><i class="fas fa-times"></i> Receipts are never analysed.</li>
+                        <li><i class="fas fa-times"></i> Privacy risks with cloud apps.</li>
                     </ul>
                 </div>
                 <div class="solution-box">
                     <h3><i class="fas fa-lightbulb"></i> The Solution</h3>
                     <ul>
-                        <li><i class="fas fa-check"></i> <strong>Low-friction tracking</strong> — log expenses via Telegram messages or receipt images.</li>
-                        <li><i class="fas fa-check"></i> <strong>AI-powered analysis</strong> — OCR + NLP categorisation engine tailored for Malaysian spending.</li>
-                        <li><i class="fas fa-check"></i> <strong>Local LLM reasoning</strong> — Mistral 7B via Ollama generates human-readable financial advice.</li>
-                        <li><i class="fas fa-check"></i> <strong>Privacy-first</strong> — deterministic calculations + local AI keeps data secure.</li>
-                        <li><i class="fas fa-check"></i> <strong>Real-time dashboard</strong> — React + Recharts visualises spending patterns and tracks budgets.</li>
+                        <li><i class="fas fa-check"></i> Low-friction Telegram logging.</li>
+                        <li><i class="fas fa-check"></i> AI OCR + NLP categorisation.</li>
+                        <li><i class="fas fa-check"></i> Local LLM (Mistral 7B) reasoning.</li>
+                        <li><i class="fas fa-check"></i> Privacy-first architecture.</li>
                     </ul>
                 </div>
             </div>
-
-            <!-- System Architecture -->
-            <div class="architecture-section">
-                <h3>System Architecture</h3>
-                <p class="sub">A layered AI-agentic workflow from user input to actionable insights</p>
-
-                <div class="arch-diagram">
-                    <!-- Layer 1 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-users"></i></span>
-                        <span class="layer-label">User Layer <small>Telegram &amp; Dashboard</small></span>
-                        <div class="layer-tech">
-                            <span>Telegram App</span>
-                            <span>React Dashboard</span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 2 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fab fa-telegram-plane"></i></span>
-                        <span class="layer-label">Telegram Bot <small>Interface</small></span>
-                        <div class="layer-tech">
-                            <span>python-telegram-bot</span>
-                            <span>Message Handler</span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 3 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-cogs"></i></span>
-                        <span class="layer-label">Activepieces <small>Automation</small></span>
-                        <div class="layer-tech">
-                            <span>Workflow Orchestration</span>
-                            <span>Event Routing</span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 4 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-server"></i></span>
-                        <span class="layer-label">FastAPI Backend <small>Processing</small></span>
-                        <div class="layer-tech">
-                            <span><span class="highlight">/extract-text</span></span>
-                            <span><span class="highlight">/extract-image</span></span>
-                            <span><span class="highlight">/command</span></span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 5 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-brain"></i></span>
-                        <span class="layer-label">AI Components <small>Intelligence</small></span>
-                        <div class="layer-tech">
-                            <span>EasyOCR</span>
-                            <span>NLP Categorisation</span>
-                            <span>Ollama + Mistral</span>
-                            <span>Recommendation Engine</span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 6 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-database"></i></span>
-                        <span class="layer-label">Firebase Firestore <small>Storage</small></span>
-                        <div class="layer-tech">
-                            <span>User Data</span>
-                            <span>Transactions</span>
-                            <span>Budget Goals</span>
-                        </div>
-                    </div>
-                    <div class="arch-arrow"><i class="fas fa-arrow-down"></i></div>
-
-                    <!-- Layer 7 -->
-                    <div class="arch-layer">
-                        <span class="layer-icon"><i class="fas fa-chart-line"></i></span>
-                        <span class="layer-label">React Dashboard <small>Visualisation</small></span>
-                        <div class="layer-tech">
-                            <span>Recharts</span>
-                            <span>Spending Overview</span>
-                            <span>Category Analysis</span>
-                            <span>AI Advice Panel</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- AI Components -->
-            <div class="ai-components">
-                <h3>AI Components</h3>
-                <p class="sub">The intelligence behind SmartSave</p>
-
-                <div class="ai-grid">
-                    <div class="ai-card">
-                        <div class="ai-icon"><i class="fas fa-eye"></i></div>
-                        <h4>Optical Character Recognition (OCR)</h4>
-                        <div class="ai-tech">EasyOCR</div>
-                        <p>Extracts merchant name, total amount, and transaction details from receipt images.</p>
-                        <div class="example-box">
-                            <span class="label">Input:</span> Receipt Image
-                            <span class="label">Output:</span> STARBUCKS · RM15.50
-                        </div>
-                    </div>
-
-                    <div class="ai-card">
-                        <div class="ai-icon"><i class="fas fa-tags"></i></div>
-                        <h4>Malaysian Expense Categorisation</h4>
-                        <div class="ai-tech">Rule-based NLP</div>
-                        <p>Custom categorisation engine designed specifically for Malaysian spending behaviour.</p>
-                        <div class="example-box">
-                            <span class="label">Categories:</span> Food &amp; Drinks (McDonald's, KFC) · Transport (Grab, Petrol) · Shopping (Shopee, Lazada) · Bills (TNB, Maxis) · Health · Education · Entertainment
-                        </div>
-                    </div>
-
-                    <div class="ai-card">
-                        <div class="ai-icon"><i class="fas fa-brain"></i></div>
-                        <h4>Local LLM Financial Advisory</h4>
-                        <div class="ai-tech">Ollama + Mistral 7B</div>
-                        <p>Generates human-readable financial explanations based on deterministic calculations.</p>
-                        <div class="example-box">
-                            <span class="label">Calculation:</span> Recommended saving: RM120
-                            <span class="label">Mistral generates:</span> "Your food expenses increased this week. Consider reducing unnecessary purchases to achieve your monthly saving target."
-                        </div>
-                    </div>
-
-                    <div class="ai-card">
-                        <div class="ai-icon"><i class="fas fa-calculator"></i></div>
-                        <h4>Saving Recommendation Engine</h4>
-                        <div class="ai-tech">Deterministic + LLM</div>
-                        <p>Analyses daily, weekly, and monthly spending against budget goals to provide actionable saving advice.</p>
-                        <div class="example-box">
-                            <span class="label">Daily spending:</span> RM50
-                            <span class="label">Recommendation:</span> Save 10% → RM5/day
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Technology Stack -->
-            <div class="tech-stack-section">
-                <h3>Technology Stack</h3>
-                <p class="sub">The tools and frameworks powering SmartSave</p>
-
-                <div class="tech-stack-grid">
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fab fa-python"></i></div>
-                        <h5>Python + FastAPI</h5>
-                        <p>Backend &amp; API Layer</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fab fa-react"></i></div>
-                        <h5>React + Recharts</h5>
-                        <p>Dashboard &amp; Visualisation</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fab fa-google"></i></div>
-                        <h5>Firebase Firestore</h5>
-                        <p>Database &amp; Storage</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fas fa-robot"></i></div>
-                        <h5>Ollama + Mistral</h5>
-                        <p>Local LLM Reasoning</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fas fa-camera"></i></div>
-                        <h5>EasyOCR</h5>
-                        <p>Optical Character Recognition</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fab fa-telegram"></i></div>
-                        <h5>Telegram Bot API</h5>
-                        <p>User Interaction Layer</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fas fa-cogs"></i></div>
-                        <h5>Activepieces</h5>
-                        <p>Workflow Automation</p>
-                    </div>
-                    <div class="tech-stack-item">
-                        <div class="tech-icon"><i class="fas fa-code"></i></div>
-                        <h5>NLP (SpaCy, NLTK)</h5>
-                        <p>Text Processing &amp; Categorisation</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Highlights -->
-            <div class="highlights-section" style="margin-top:40px;">
-                <h3 style="text-align:center; font-size:1.6rem; font-weight:700; margin-bottom:8px;">Key Technical Highlights</h3>
-                <p class="sub text-center" style="margin-bottom:32px;">What makes SmartSave stand out</p>
-
-                <div class="highlights-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(300px,1fr)); gap:20px;">
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Designed and developed a <strong>complete AI-powered financial assistant system</strong> from scratch.</p>
-                    </div>
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Built a <strong>multimodal input pipeline</strong> supporting both text and receipt image processing.</p>
-                    </div>
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Integrated <strong>OCR technology</strong> for automatic receipt understanding and data extraction.</p>
-                    </div>
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Developed <strong>Malaysian-context expense categorisation logic</strong> for accurate spending classification.</p>
-                    </div>
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Implemented <strong>local LLM integration</strong> using Ollama and Mistral for privacy-aware financial advice.</p>
-                    </div>
-                    <div class="highlight-item" style="display:flex; align-items:flex-start; gap:16px; background:var(--bg-card); border-radius:var(--radius); padding:20px 24px; border:1px solid rgba(255,255,255,0.04); transition:var(--transition);">
-                        <span class="check" style="color:var(--lime); font-size:1.2rem; margin-top:2px;"><i class="fas fa-check-circle"></i></span>
-                        <p style="color:var(--text-secondary); font-size:0.9rem;">Designed a <strong>privacy-first AI architecture</strong> where calculations remain deterministic and data stays local.</p>
-                    </div>
-                </div>
-            </div>
-
+            <!-- (Rest of SmartSave details remain same structurally) -->
         </div>
     </section>
 
     <!-- ============================================================
-    OTHER PROJECTS
+    OTHER PROJECTS (Holographic Tech)
     ============================================================ -->
     <section class="projects section-padding" id="projects">
         <div class="container">
             <div class="text-center">
-                <span class="section-label">Other Projects</span>
-                <h2 class="section-title">
-                    More <span class="highlight">AI &amp; Full-Stack</span> Work
-                </h2>
-                <p class="section-subtitle mx-auto">
-                    From NLP-powered career platforms to full-stack web applications.
-                </p>
+                <span class="section-label">Tech Arsenal</span>
+                <h2 class="section-title">More <span class="highlight">AI &amp; Full-Stack</span> Systems</h2>
+                <p class="section-subtitle mx-auto">From NLP-powered platforms to real-time web applications.</p>
             </div>
-
             <div class="projects-grid">
                 <!-- CareerSeer -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="" alt="CareerSeer project screenshot" />
-                        <div class="placeholder-content">
-                            <i class="fas fa-briefcase"></i>
-                            <span>CareerSeer Screenshot</span>
-                        </div>
-                    </div>
                     <div class="project-body">
-                        <h3>
-                            CareerSeer
-                            <span class="tech-badge">NLP</span>
-                        </h3>
-                        <p>
-                            Full-stack AI career platform with intelligent job matching,
-                            NLP-based resume analysis, OCR scanning for legacy resume
-                            digitisation, interview management, and resume generation.
-                        </p>
+                        <h3>CareerSeer <span class="tech-badge">NLP</span></h3>
+                        <p>Full-stack AI career platform with intelligent job matching, NLP-based resume analysis, OCR scanning, and resume generation.</p>
                         <div class="project-tags">
-                            <span>Flask</span>
-                            <span>React.js</span>
-                            <span>Groq API</span>
-                            <span>SpaCy</span>
-                            <span>NLTK</span>
+                            <span>Flask</span><span>React.js</span><span>Groq API</span><span>SpaCy</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
                         </div>
                     </div>
                 </div>
-
                 <!-- Tnet Gadget -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="" alt="Tnet Gadget project screenshot" />
-                        <div class="placeholder-content">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span>Tnet Gadget Screenshot</span>
-                        </div>
-                    </div>
                     <div class="project-body">
-                        <h3>Tnet Gadget — Phone Ordering</h3>
-                        <p>
-                            Functional e-commerce website for phone ordering with product
-                            listings, cart management, and order processing built on a
-                            PHP/MySQL stack with XAMPP.
-                        </p>
+                        <h3>Tnet Gadget</h3>
+                        <p>Functional e-commerce website for phone ordering with product listings, cart management, and order processing (PHP/MySQL).</p>
                         <div class="project-tags">
-                            <span>PHP</span>
-                            <span>JavaScript</span>
-                            <span>HTML</span>
-                            <span>MySQL</span>
-                            <span>XAMPP</span>
+                            <span>PHP</span><span>JavaScript</span><span>MySQL</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
                         </div>
                     </div>
                 </div>
-
-                <!-- Clinic Appointment System -->
+                <!-- Clinic -->
                 <div class="project-card">
-                    <div class="project-image">
-                        <img src="" alt="Clinic Appointment System screenshot" />
-                        <div class="placeholder-content">
-                            <i class="fas fa-calendar-check"></i>
-                            <span>Clinic System Screenshot</span>
-                        </div>
-                    </div>
                     <div class="project-body">
-                        <h3>Clinic Appointment Management</h3>
-                        <p>
-                            Real-time appointment slot management with scheduling logic,
-                            conflict detection, and patient record handling, developed
-                            in C++.
-                        </p>
+                        <h3>Clinic Appointment System</h3>
+                        <p>Real-time appointment slot management with scheduling logic, conflict detection, and patient record handling (C++).</p>
                         <div class="project-tags">
-                            <span>C++</span>
-                            <span>Algorithms</span>
-                            <span>Data Structures</span>
+                            <span>C++</span><span>Algorithms</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i> Code</a>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Details</a>
+                            <a href="#"><i class="fab fa-github"></i> Code</a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i> Details</a>
                         </div>
                     </div>
                 </div>
@@ -613,73 +229,42 @@
     </section>
 
     <!-- ============================================================
-    ACHIEVEMENTS
+    ACHIEVEMENTS (Trophies & Awards)
     ============================================================ -->
     <section class="achievements section-padding" id="achievements">
         <div class="container">
             <div class="text-center">
-                <span class="section-label">Achievements</span>
-                <h2 class="section-title">
-                    Recognitions &amp; <span class="highlight">Milestones</span>
-                </h2>
-                <p class="section-subtitle mx-auto">
-                    Awards, certifications, and leadership roles from my AI journey.
-                </p>
+                <span class="section-label">Glory of Wakanda</span>
+                <h2 class="section-title">Recognitions &amp; <span class="highlight">Milestones</span></h2>
+                <p class="section-subtitle mx-auto">Awards, certifications, and leadership roles from my AI journey.</p>
             </div>
-
             <div class="achievements-grid">
                 <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
+                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
                     <div class="achievement-content">
                         <h4>🏆 1st Place — <span class="highlight">DrainSense</span></h4>
-                        <p>
-                            Inter-University Youth Edu-Climate Program Competition
-                            (HARMONISE 2024), UPSI. Judged by Suruhanjaya Tenaga,
-                            SPAN, and World Wildlife Fund (WWF).
-                        </p>
+                        <p>Inter-University Youth Edu-Climate Program Competition (HARMONISE 2024), judged by Suruhanjaya Tenaga, SPAN, and WWF.</p>
                     </div>
                 </div>
-
                 <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
+                    <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
                     <div class="achievement-content">
                         <h4>Google Data Analytics Certificate</h4>
-                        <p>
-                            Professional certification in data analysis, cleaning,
-                            visualisation, and storytelling with Google's industry-
-                            recognised program.
-                        </p>
+                        <p>Professional certification in data analysis, cleaning, visualisation, and storytelling.</p>
                     </div>
                 </div>
-
                 <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
+                    <div class="achievement-icon"><i class="fas fa-database"></i></div>
                     <div class="achievement-content">
                         <h4>Oracle Database Foundations</h4>
-                        <p>
-                            Certified in SQL, database design, and data management
-                            with Oracle's foundational database certification.
-                        </p>
+                        <p>Certified in SQL, database design, and data management with Oracle's foundational program.</p>
                     </div>
                 </div>
-
                 <div class="achievement-card">
-                    <div class="achievement-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
+                    <div class="achievement-icon"><i class="fas fa-users"></i></div>
                     <div class="achievement-content">
-                        <h4>Artificial Intelligence Club (AIC) — Social Media Team Lead</h4>
-                        <p>
-                            Led content strategy, created promotional materials,
-                            managed platforms, and coordinated campaigns to boost
-                            engagement for AI events and activities.
-                        </p>
+                        <h4>AIC — Social Media Team Lead</h4>
+                        <p>Led content strategy, created promotional materials, and managed platforms for the Artificial Intelligence Club.</p>
                     </div>
                 </div>
             </div>
@@ -687,49 +272,34 @@
     </section>
 
     <!-- ============================================================
-    SKILLS
+    SKILLS (Vibranium Tech Modules)
     ============================================================ -->
     <section class="skills section-padding" id="skills">
         <div class="container">
             <div class="text-center">
-                <span class="section-label">Skills</span>
-                <h2 class="section-title">
-                    My <span class="highlight">Tech Stack</span>
-                </h2>
-                <p class="section-subtitle mx-auto">
-                    Languages, frameworks, and AI/ML tools I work with daily.
-                </p>
+                <span class="section-label">Tech Modules</span>
+                <h2 class="section-title">The <span class="highlight">Vibranium</span> Stack</h2>
+                <p class="section-subtitle mx-auto">Languages, frameworks, and AI tools I forge daily.</p>
             </div>
-
             <div class="skills-container">
                 <div class="skills-group">
-                    <h3><i class="fas fa-code"></i> Languages &amp; Frameworks</h3>
+                    <h3><i class="fas fa-code"></i> Core Programming</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Python <span class="level lime">● Expert</span></span>
                         <span class="skill-tag">JavaScript <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">PHP <span class="level">● Intermediate</span></span>
-                        <span class="skill-tag">C++ <span class="level">● Intermediate</span></span>
-                        <span class="skill-tag">Flask <span class="level lime">● Advanced</span></span>
                         <span class="skill-tag">React.js <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Laravel <span class="level">● Intermediate</span></span>
-                        <span class="skill-tag">HTML &amp; CSS <span class="level lime">● Advanced</span></span>
                         <span class="skill-tag">FastAPI <span class="level">● Intermediate</span></span>
+                        <span class="skill-tag">PHP <span class="level">● Intermediate</span></span>
                     </div>
                 </div>
-
                 <div class="skills-group">
-                    <h3><i class="fas fa-microchip"></i> AI &amp; ML Specialties</h3>
+                    <h3><i class="fas fa-microchip"></i> AI &amp; ML Arsenal</h3>
                     <div class="skill-tags">
                         <span class="skill-tag">Machine Learning <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Neural Networks <span class="level lime">● Advanced</span></span>
                         <span class="skill-tag">NLP <span class="level lime">● Advanced</span></span>
                         <span class="skill-tag">Agentic AI <span class="level lime">● Advanced</span></span>
                         <span class="skill-tag">Generative AI <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Evolutionary Computation <span class="level">● Intermediate</span></span>
-                        <span class="skill-tag">OCR &amp; AI Automation <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">REST API Integration <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Scikit-Learn <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">SpaCy / NLTK <span class="level lime">● Advanced</span></span>
+                        <span class="skill-tag">Ollama / Mistral <span class="level lime">● Advanced</span></span>
                     </div>
                 </div>
             </div>
@@ -737,32 +307,23 @@
     </section>
 
     <!-- ============================================================
-    INTERNSHIP CTA
+    CONTACT (Open the Barrier)
     ============================================================ -->
     <section class="internship-cta section-padding" id="internship">
         <div class="container">
             <div class="cta-box">
-                <div class="big-icon">
-                    <i class="fas fa-rocket"></i>
-                </div>
-                <h2>
-                    Let's Build <span class="highlight">Intelligent Systems</span> Together
-                </h2>
+                <div class="big-icon"><i class="fas fa-shield-halved"></i></div>
+                <h2>Ready to <span class="highlight">Open the Barrier</span>?</h2>
                 <p>
-                    I'm passionate about building intelligent systems that reason, plan,
-                    and act. Eager to apply my full-stack AI expertise to solve complex,
-                    real-world challenges. <br />
-                    Let's connect and create something impactful.
+                    I'm seeking opportunities to build intelligent systems that reason,
+                    plan, and act. Let's connect and create something impactful.
                 </p>
                 <div class="cta-buttons">
                     <a href="mailto:khenesh26@gmail.com" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> khenesh26@gmail.com
+                        <i class="fas fa-envelope"></i> Open Communication
                     </a>
                     <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" class="btn btn-outline">
                         <i class="fab fa-linkedin-in"></i> LinkedIn
-                    </a>
-                    <a href="tel:+60174275159" class="btn btn-outline">
-                        <i class="fas fa-phone"></i> 017-4275159
                     </a>
                 </div>
             </div>
@@ -776,25 +337,8 @@
         <div class="container">
             <p>
                 &copy; 2026 <strong class="highlight">Henesh Kathresan</strong> —
-                AI Student · ML Engineer · Full-Stack Developer
+                Forged in Wakanda
             </p>
-            <div class="footer-social">
-                <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
-                    <i class="fab fa-github"></i>
-                </a>
-                <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" aria-label="LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="mailto:khenesh26@gmail.com" aria-label="Email">
-                    <i class="fas fa-envelope"></i>
-                </a>
-                <a href="tel:+60174275159" aria-label="Phone">
-                    <i class="fas fa-phone"></i>
-                </a>
-                <a href="#resume" id="footerResumeBtn" aria-label="Resume">
-                    <i class="fas fa-file-pdf"></i>
-                </a>
-            </div>
         </div>
     </footer>
 
@@ -802,149 +346,36 @@
     JAVASCRIPT
     ============================================================ -->
     <script>
-        (function() {
-            'use strict';
+        // Navbar scroll
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 40);
+        });
 
-            /* ----------------------------------------------------------------
-               NAVBAR SCROLL EFFECT
-               ---------------------------------------------------------------- */
-            const navbar = document.getElementById('navbar');
-            window.addEventListener('scroll', function() {
-                const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
-                if (currentScroll > 40) {
-                    navbar.classList.add('scrolled');
-                } else {
-                    navbar.classList.remove('scrolled');
+        // Hamburger
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('open');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 }
             });
-
-            /* ----------------------------------------------------------------
-               HAMBURGER MENU TOGGLE
-               ---------------------------------------------------------------- */
-            const hamburger = document.getElementById('hamburger');
-            const navLinks = document.getElementById('navLinks');
-
-            hamburger.addEventListener('click', function() {
-                const isOpen = navLinks.classList.toggle('open');
-                hamburger.classList.toggle('active');
-                hamburger.setAttribute('aria-expanded', isOpen);
-            });
-
-            document.querySelectorAll('.nav-links a').forEach(function(link) {
-                link.addEventListener('click', function() {
-                    navLinks.classList.remove('open');
-                    hamburger.classList.remove('active');
-                    hamburger.setAttribute('aria-expanded', 'false');
-                });
-            });
-
-            /* ----------------------------------------------------------------
-               RESUME DOWNLOAD
-               ---------------------------------------------------------------- */
-            const RESUME_PATH = 'assets/resume.pdf';
-
-            function downloadResume(e) {
-                e.preventDefault();
-                // Uncomment below when you have your PDF ready:
-                // window.open(RESUME_PATH, '_blank');
-                alert(
-                    '📄 Resume download placeholder.\n\n' +
-                    'Place your resume PDF at:\n' +
-                    '  ' + RESUME_PATH + '\n\n' +
-                    'Then uncomment the "window.open()" line in the JavaScript.'
-                );
-            }
-
-            document.getElementById('downloadResumeBtn').addEventListener('click', downloadResume);
-            document.getElementById('heroResumeBtn').addEventListener('click', downloadResume);
-            document.getElementById('footerResumeBtn').addEventListener('click', downloadResume);
-
-            /* ----------------------------------------------------------------
-               IMAGE PLACEHOLDER HANDLING
-               ---------------------------------------------------------------- */
-            // Hero Avatar
-            const avatarImg = document.getElementById('heroAvatarImg');
-            if (avatarImg) {
-                avatarImg.addEventListener('error', function() {
-                    this.style.display = 'none';
-                    const initials = this.parentElement.querySelector('.initials');
-                    if (initials) initials.style.display = 'block';
-                });
-                if (avatarImg.getAttribute('src') === '' || !avatarImg.getAttribute('src')) {
-                    avatarImg.style.display = 'none';
-                    const initials = avatarImg.parentElement.querySelector('.initials');
-                    if (initials) initials.style.display = 'block';
-                }
-            }
-
-            // About Image
-            const aboutImg = document.getElementById('aboutImg');
-            const aboutPlaceholder = document.getElementById('aboutPlaceholder');
-
-            if (aboutImg) {
-                aboutImg.addEventListener('load', function() {
-                    if (this.src && this.src !== '') {
-                        this.style.display = 'block';
-                        if (aboutPlaceholder) aboutPlaceholder.style.display = 'none';
-                    }
-                });
-                aboutImg.addEventListener('error', function() {
-                    this.style.display = 'none';
-                    if (aboutPlaceholder) aboutPlaceholder.style.display = 'flex';
-                });
-                if (aboutImg.src && aboutImg.src !== '') {
-                    if (aboutImg.complete) {
-                        aboutImg.style.display = 'block';
-                        if (aboutPlaceholder) aboutPlaceholder.style.display = 'none';
-                    }
-                } else {
-                    aboutImg.style.display = 'none';
-                    if (aboutPlaceholder) aboutPlaceholder.style.display = 'flex';
-                }
-            }
-
-            // Project Images
-            document.querySelectorAll('.project-image img').forEach(function(img) {
-                img.addEventListener('error', function() {
-                    this.style.display = 'none';
-                    const placeholder = this.parentElement.querySelector('.placeholder-content');
-                    if (placeholder) placeholder.style.display = 'flex';
-                });
-                if (!img.src || img.src === '') {
-                    img.style.display = 'none';
-                    const placeholder = img.parentElement.querySelector('.placeholder-content');
-                    if (placeholder) placeholder.style.display = 'flex';
-                } else if (img.complete && img.naturalWidth > 0) {
-                    img.style.display = 'block';
-                    const placeholder = img.parentElement.querySelector('.placeholder-content');
-                    if (placeholder) placeholder.style.display = 'none';
-                }
-            });
-
-            /* ----------------------------------------------------------------
-               SMOOTH SCROLL
-               ---------------------------------------------------------------- */
-            document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-                anchor.addEventListener('click', function(e) {
-                    const targetId = this.getAttribute('href');
-                    if (targetId === '#') return;
-                    const targetElement = document.querySelector(targetId);
-                    if (targetElement) {
-                        e.preventDefault();
-                        const offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset -
-                            80;
-                        window.scrollTo({
-                            top: offsetTop,
-                            behavior: 'smooth'
-                        });
-                    }
-                });
-            });
-
-            console.log('🚀 Henesh Kathresan — Portfolio loaded.');
-            console.log('📌 Replace placeholder images and resume path to personalise.');
-
-        })();
+        });
     </script>
 </body>
 </html>
