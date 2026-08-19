@@ -3,373 +3,273 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Henesh Kathresan · Digital Wakanda</title>
+    <meta name="description" content="Henesh Kathresan — AI student and developer building agentic AI, machine learning and full-stack systems." />
+    <meta name="theme-color" content="#0b0b0e" />
+    <title>Henesh Kathresan · AI Engineer Portfolio</title>
 
-    <!-- Font Awesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="ui-enhancements.css" />
 </head>
 <body>
 
-    <!-- ============================================================
-    NAVIGATION
-    ============================================================ -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar" id="navbar" aria-label="Primary navigation">
         <div class="container">
-            <a href="#" class="nav-brand">
+            <a href="#home" class="nav-brand" aria-label="Henesh Kathresan home">
                 <span class="brand-accent">HK</span> WAKANDA
             </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="#origin">Origin</a></li>
-                <li><a href="#projects">Tech</a></li>
-                <li><a href="#smart-save">SmartSave</a></li>
-                <li><a href="#achievements">Trophies</a></li>
-                <li><a href="#skills">Modules</a></li>
+                <li><a href="#origin">About</a></li>
+                <li><a href="#smart-save">Featured</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
             </ul>
-            <button class="hamburger" id="hamburger" aria-label="Menu">
+            <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false">
                 <span></span><span></span><span></span>
             </button>
         </div>
     </nav>
 
-    <!-- ============================================================
-    HERO
-    ============================================================ -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-badge">
-                    <span class="dot"></span> Welcome to my Digital Wakanda
-                </div>
-                <h1>
-                    I am <br />
-                    <span class="highlight">Henesh Kathresan</span>
-                </h1>
-                <div class="hero-title-role">
-                    AI Architect · ML Engineer · Full-Stack Sorcerer
-                    <br />
-                    <strong>#AgenticAI</strong> · <strong>#GenerativeAI</strong> · <strong>#NLP</strong>
-                </div>
-                <p>
-                    Final-year AI student at UTeM. Forging intelligent systems with
-                    locally-hosted LLMs, NLP-powered engines, and full-stack weapons.
-                </p>
-                <div class="hero-actions">
-                    <a href="#smart-save" class="btn btn-primary">
-                        <i class="fas fa-rocket"></i> Explore Tech
-                    </a>
-                    <a href="#resume" class="btn btn-outline" id="heroResumeBtn">
-                        <i class="fas fa-file-pdf"></i> Resume
-                    </a>
-                </div>
-                <div class="hero-social">
-                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    <a href="mailto:khenesh26@gmail.com"><i class="fas fa-envelope"></i></a>
-                </div>
-            </div>
-
-            <div class="hero-visual">
-                <div class="hero-avatar-wrapper">
-                    <div class="ring-glow"></div>
-                    <div class="hero-avatar">
-                        <!-- !!! REPLACE 'henesh.jpg' WITH YOUR ACTUAL IMAGE FILE NAME !!! -->
-                        <img src="henesh.jpg" alt="Henesh Kathresan" id="heroAvatarImg" />
+    <main>
+        <section class="hero" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge"><span class="dot"></span> Available for AI opportunities</div>
+                    <h1>I build <span class="highlight">intelligent systems.</span></h1>
+                    <div class="hero-title-role">
+                        AI Student · ML Engineer · Full-Stack Developer<br />
+                        <strong>#AgenticAI</strong> · <strong>#GenerativeAI</strong> · <strong>#NLP</strong>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================================
-    ORIGIN STORY (About)
-    ============================================================ -->
-    <section class="about section-padding" id="origin">
-        <div class="container">
-            <div class="text-center">
-                <span class="section-label">Origin Story</span>
-                <h2 class="section-title">Forging <span class="highlight">Intelligent</span> Futures</h2>
-                <p class="section-subtitle mx-auto">
-                    A final-year AI undergraduate mastering the art of agentic systems and full-stack alchemy.
-                </p>
-            </div>
-            <div class="about-grid">
-                <div class="about-text">
                     <p>
-                        I am <span class="highlight-text">Henesh Kathresan</span>, an
-                        <span class="highlight-text">Artificial Intelligence</span> warrior
-                        at <span class="highlight-text">Universiti Teknikal Malaysia Melaka (UTeM)</span>
-                        with a 3.42 CGPA. My craft is building end-to-end AI systems — from
-                        agentic personal finance assistants using locally-hosted Mistral 7B to
-                        NLP-driven career platforms.
+                        Final-year Artificial Intelligence student at UTeM focused on turning AI research into
+                        practical products — from local LLM agents and NLP engines to production-ready web systems.
                     </p>
-                    <p>
-                        My focus lies in <span class="highlight-text">Agentic AI Automation</span>
-                        and <span class="highlight-text">Generative AI</span>. I build autonomous
-                        agents that reason, plan, and act. With a full-stack mindset (Python,
-                        FastAPI, React.js), I ensure every AI creation is <span class="highlight-text">deployable</span>,
-                        <span class="highlight-text">impactful</span>, and <span class="highlight-text">powerful</span>.
+                    <div class="hero-actions">
+                        <a href="#smart-save" class="btn btn-primary"><i class="fas fa-arrow-down"></i> View my work</a>
+                        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Let's connect</a>
+                    </div>
+                    <div class="hero-social" aria-label="Social links">
+                        <a href="https://github.com/Henesh" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:khenesh26@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="hero-avatar-wrapper">
+                        <div class="ring-glow"></div>
+                        <div class="hero-avatar">
+                            <img src="henesh.jpg" alt="Henesh Kathresan" id="heroAvatarImg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section-padding" id="origin">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">01 · About</span>
+                    <h2 class="section-title">Engineering <span class="highlight">AI with purpose.</span></h2>
+                    <p class="section-subtitle mx-auto">A builder-first approach to artificial intelligence, automation and full-stack development.</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>
+                            I'm <span class="highlight-text">Henesh Kathresan</span>, an Artificial Intelligence student at
+                            <span class="highlight-text">Universiti Teknikal Malaysia Melaka (UTeM)</span> with a 3.42 CGPA.
+                            I enjoy taking ideas from a technical concept to a working product.
+                        </p>
+                        <p>
+                            My current focus is <span class="highlight-text">Agentic AI</span>,
+                            <span class="highlight-text">Generative AI</span>, NLP and automation. I work across Python,
+                            FastAPI, React and local LLM tooling to build systems that are practical, explainable and deployable.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card"><div class="number">3.42</div><div class="label">CGPA · UTeM</div></div>
+                            <div class="stat-card"><div class="number">4+</div><div class="label">Core Projects</div></div>
+                            <div class="stat-card"><div class="number">1st</div><div class="label">DrainSense Award</div></div>
+                        </div>
+                    </div>
+                    <div class="about-image-placeholder">
+                        <img src="henesh.jpg" alt="Henesh Kathresan" id="aboutImg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="smart-save section-padding" id="smart-save">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">02 · Featured project</span>
+                    <h2 class="section-title">SmartSave <span class="highlight">AI Financial Assistant</span></h2>
+                    <p class="section-subtitle mx-auto">
+                        An AI-powered personal finance assistant for Malaysian university students, combining Telegram,
+                        OCR, NLP, local LLM reasoning and a React analytics dashboard.
                     </p>
-                    <div class="about-stats">
-                        <div class="stat-card">
-                            <div class="number">3.42</div>
-                            <div class="label">CGPA (UTeM)</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="number">4</div>
-                            <div class="label">Core Projects</div>
-                        </div>
-                        <div class="stat-card">
-                            <div class="number">1st</div>
-                            <div class="label">DrainSense 🏆</div>
-                        </div>
+                </div>
+                <div class="problem-solution-grid">
+                    <div class="problem-box">
+                        <h3><i class="fas fa-circle-exclamation"></i> The problem</h3>
+                        <ul>
+                            <li><i class="fas fa-xmark"></i> Manual expense tracking is easy to abandon.</li>
+                            <li><i class="fas fa-xmark"></i> Spending patterns are difficult to understand.</li>
+                            <li><i class="fas fa-xmark"></i> Receipt data is often left unused.</li>
+                            <li><i class="fas fa-xmark"></i> Financial data needs privacy-conscious handling.</li>
+                        </ul>
+                    </div>
+                    <div class="solution-box">
+                        <h3><i class="fas fa-sparkles"></i> The solution</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Low-friction expense logging through Telegram.</li>
+                            <li><i class="fas fa-check"></i> OCR and NLP-based receipt processing.</li>
+                            <li><i class="fas fa-check"></i> Local Mistral LLM for personalised advice.</li>
+                            <li><i class="fas fa-check"></i> Firebase-backed analytics with a React dashboard.</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="about-image-placeholder">
-                    <!-- You can use a secondary image here or a different shot -->
-                    <img src="henesh.jpg" alt="Henesh Kathresan" id="aboutImg" style="display: block;" />
-                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ============================================================
-    FEATURED PROJECT (SmartSave)
-    ============================================================ -->
-    <section class="smart-save section-padding" id="smart-save">
-        <div class="container">
-            <div class="text-center">
-                <span class="section-label">Vibranium Prototype</span>
-                <h2 class="section-title">SmartSave: <span class="highlight">Agentic Advisor</span></h2>
-                <p class="section-subtitle mx-auto">
-                    An AI-powered personal finance assistant for Malaysian university students, engineered with
-                    Telegram and a React dashboard.
-                </p>
-            </div>
-            <!-- (Keep the existing visual grid and description content as provided, but styled with the new CSS) -->
-            <div class="problem-solution-grid">
-                <div class="problem-box">
-                    <h3><i class="fas fa-exclamation-triangle"></i> The Problem</h3>
-                    <ul>
-                        <li><i class="fas fa-times"></i> Manual tracking is abandoned.</li>
-                        <li><i class="fas fa-times"></i> Spending remains a mystery.</li>
-                        <li><i class="fas fa-times"></i> Receipts are never analysed.</li>
-                        <li><i class="fas fa-times"></i> Privacy risks with cloud apps.</li>
-                    </ul>
+        <section class="projects section-padding" id="projects">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">03 · Selected work</span>
+                    <h2 class="section-title">Projects that <span class="highlight">solve problems.</span></h2>
+                    <p class="section-subtitle mx-auto">A mix of AI, software engineering, databases and full-stack systems.</p>
                 </div>
-                <div class="solution-box">
-                    <h3><i class="fas fa-lightbulb"></i> The Solution</h3>
-                    <ul>
-                        <li><i class="fas fa-check"></i> Low-friction Telegram logging.</li>
-                        <li><i class="fas fa-check"></i> AI OCR + NLP categorisation.</li>
-                        <li><i class="fas fa-check"></i> Local LLM (Mistral 7B) reasoning.</li>
-                        <li><i class="fas fa-check"></i> Privacy-first architecture.</li>
-                    </ul>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h3>CareerSeer <span class="tech-badge">NLP</span></h3>
+                            <p>AI career platform with intelligent job matching, NLP resume analysis, OCR extraction and resume generation.</p>
+                            <div class="project-tags"><span>Flask</span><span>React.js</span><span>Groq</span><span>SpaCy</span></div>
+                            <div class="project-links"><a href="#"><i class="fab fa-github"></i> Code</a><a href="#"><i class="fas fa-arrow-up-right-from-square"></i> Demo</a></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h3>Tnet Gadget</h3>
+                            <p>Full-stack e-commerce system for phone ordering with product listings, cart management and order processing.</p>
+                            <div class="project-tags"><span>PHP</span><span>JavaScript</span><span>MySQL</span></div>
+                            <div class="project-links"><a href="#"><i class="fab fa-github"></i> Code</a><a href="#"><i class="fas fa-arrow-up-right-from-square"></i> Live</a></div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-body">
+                            <h3>Clinic Appointment System</h3>
+                            <p>Appointment management system with scheduling logic, conflict detection and patient record handling.</p>
+                            <div class="project-tags"><span>C++</span><span>Algorithms</span><span>Database</span></div>
+                            <div class="project-links"><a href="#"><i class="fab fa-github"></i> Code</a><a href="#"><i class="fas fa-arrow-up-right-from-square"></i> Details</a></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!-- (Rest of SmartSave details remain same structurally) -->
-        </div>
-    </section>
+        </section>
 
-    <!-- ============================================================
-    OTHER PROJECTS (Holographic Tech)
-    ============================================================ -->
-    <section class="projects section-padding" id="projects">
-        <div class="container">
-            <div class="text-center">
-                <span class="section-label">Tech Arsenal</span>
-                <h2 class="section-title">More <span class="highlight">AI &amp; Full-Stack</span> Systems</h2>
-                <p class="section-subtitle mx-auto">From NLP-powered platforms to real-time web applications.</p>
-            </div>
-            <div class="projects-grid">
-                <!-- CareerSeer -->
-                <div class="project-card">
-                    <div class="project-body">
-                        <h3>CareerSeer <span class="tech-badge">NLP</span></h3>
-                        <p>Full-stack AI career platform with intelligent job matching, NLP-based resume analysis, OCR scanning, and resume generation.</p>
-                        <div class="project-tags">
-                            <span>Flask</span><span>React.js</span><span>Groq API</span><span>SpaCy</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fab fa-github"></i> Code</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
-                        </div>
-                    </div>
+        <section class="achievements section-padding" id="achievements">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">04 · Recognition</span>
+                    <h2 class="section-title">Milestones &amp; <span class="highlight">achievements.</span></h2>
+                    <p class="section-subtitle mx-auto">Selected academic, technical and leadership milestones.</p>
                 </div>
-                <!-- Tnet Gadget -->
-                <div class="project-card">
-                    <div class="project-body">
-                        <h3>Tnet Gadget</h3>
-                        <p>Functional e-commerce website for phone ordering with product listings, cart management, and order processing (PHP/MySQL).</p>
-                        <div class="project-tags">
-                            <span>PHP</span><span>JavaScript</span><span>MySQL</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fab fa-github"></i> Code</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Live</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Clinic -->
-                <div class="project-card">
-                    <div class="project-body">
-                        <h3>Clinic Appointment System</h3>
-                        <p>Real-time appointment slot management with scheduling logic, conflict detection, and patient record handling (C++).</p>
-                        <div class="project-tags">
-                            <span>C++</span><span>Algorithms</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="#"><i class="fab fa-github"></i> Code</a>
-                            <a href="#"><i class="fas fa-external-link-alt"></i> Details</a>
-                        </div>
-                    </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card"><div class="achievement-icon"><i class="fas fa-trophy"></i></div><div class="achievement-content"><h4>1st Place — <span class="highlight">DrainSense</span></h4><p>Inter-University Youth Edu-Climate Program Competition (HARMONISE 2024).</p></div></div>
+                    <div class="achievement-card"><div class="achievement-icon"><i class="fas fa-certificate"></i></div><div class="achievement-content"><h4>Google Data Analytics</h4><p>Professional certification covering data analysis, cleaning, visualisation and storytelling.</p></div></div>
+                    <div class="achievement-card"><div class="achievement-icon"><i class="fas fa-database"></i></div><div class="achievement-content"><h4>Oracle Database Foundations</h4><p>Foundational training in SQL, database design and data management.</p></div></div>
+                    <div class="achievement-card"><div class="achievement-icon"><i class="fas fa-users"></i></div><div class="achievement-content"><h4>AIC — Social Media Team Lead</h4><p>Led content strategy, promotional materials and social media activities for the AI Club.</p></div></div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ============================================================
-    ACHIEVEMENTS (Trophies & Awards)
-    ============================================================ -->
-    <section class="achievements section-padding" id="achievements">
-        <div class="container">
-            <div class="text-center">
-                <span class="section-label">Glory of Wakanda</span>
-                <h2 class="section-title">Recognitions &amp; <span class="highlight">Milestones</span></h2>
-                <p class="section-subtitle mx-auto">Awards, certifications, and leadership roles from my AI journey.</p>
-            </div>
-            <div class="achievements-grid">
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
-                    <div class="achievement-content">
-                        <h4>🏆 1st Place — <span class="highlight">DrainSense</span></h4>
-                        <p>Inter-University Youth Edu-Climate Program Competition (HARMONISE 2024), judged by Suruhanjaya Tenaga, SPAN, and WWF.</p>
-                    </div>
+        <section class="skills section-padding" id="skills">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-label">05 · Skills</span>
+                    <h2 class="section-title">The <span class="highlight">AI stack.</span></h2>
+                    <p class="section-subtitle mx-auto">Tools and technologies I use to turn ideas into working systems.</p>
                 </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-certificate"></i></div>
-                    <div class="achievement-content">
-                        <h4>Google Data Analytics Certificate</h4>
-                        <p>Professional certification in data analysis, cleaning, visualisation, and storytelling.</p>
+                <div class="skills-container">
+                    <div class="skills-group">
+                        <h3><i class="fas fa-code"></i> Development</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">JavaScript <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">React.js <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">FastAPI <span class="level">● Intermediate</span></span>
+                            <span class="skill-tag">PHP <span class="level">● Intermediate</span></span>
+                        </div>
                     </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-database"></i></div>
-                    <div class="achievement-content">
-                        <h4>Oracle Database Foundations</h4>
-                        <p>Certified in SQL, database design, and data management with Oracle's foundational program.</p>
-                    </div>
-                </div>
-                <div class="achievement-card">
-                    <div class="achievement-icon"><i class="fas fa-users"></i></div>
-                    <div class="achievement-content">
-                        <h4>AIC — Social Media Team Lead</h4>
-                        <p>Led content strategy, created promotional materials, and managed platforms for the Artificial Intelligence Club.</p>
+                    <div class="skills-group">
+                        <h3><i class="fas fa-microchip"></i> AI &amp; Data</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Machine Learning <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">NLP <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">Agentic AI <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">Generative AI <span class="level lime">● Advanced</span></span>
+                            <span class="skill-tag">Ollama / Mistral <span class="level lime">● Advanced</span></span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ============================================================
-    SKILLS (Vibranium Tech Modules)
-    ============================================================ -->
-    <section class="skills section-padding" id="skills">
-        <div class="container">
-            <div class="text-center">
-                <span class="section-label">Tech Modules</span>
-                <h2 class="section-title">The <span class="highlight">Vibranium</span> Stack</h2>
-                <p class="section-subtitle mx-auto">Languages, frameworks, and AI tools I forge daily.</p>
-            </div>
-            <div class="skills-container">
-                <div class="skills-group">
-                    <h3><i class="fas fa-code"></i> Core Programming</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Python <span class="level lime">● Expert</span></span>
-                        <span class="skill-tag">JavaScript <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">React.js <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">FastAPI <span class="level">● Intermediate</span></span>
-                        <span class="skill-tag">PHP <span class="level">● Intermediate</span></span>
-                    </div>
-                </div>
-                <div class="skills-group">
-                    <h3><i class="fas fa-microchip"></i> AI &amp; ML Arsenal</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Machine Learning <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">NLP <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Agentic AI <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Generative AI <span class="level lime">● Advanced</span></span>
-                        <span class="skill-tag">Ollama / Mistral <span class="level lime">● Advanced</span></span>
+        <section class="internship-cta section-padding" id="contact">
+            <div class="container">
+                <div class="cta-box">
+                    <div class="big-icon"><i class="fas fa-satellite-dish"></i></div>
+                    <h2>Let's build something <span class="highlight">intelligent.</span></h2>
+                    <p>I'm interested in opportunities where AI, automation and software engineering come together. If you're building something ambitious, let's talk.</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:khenesh26@gmail.com" class="btn btn-primary"><i class="fas fa-envelope"></i> Email me</a>
+                        <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- ============================================================
-    CONTACT (Open the Barrier)
-    ============================================================ -->
-    <section class="internship-cta section-padding" id="internship">
+    <footer class="footer">
         <div class="container">
-            <div class="cta-box">
-                <div class="big-icon"><i class="fas fa-shield-halved"></i></div>
-                <h2>Ready to <span class="highlight">Open the Barrier</span>?</h2>
-                <p>
-                    I'm seeking opportunities to build intelligent systems that reason,
-                    plan, and act. Let's connect and create something impactful.
-                </p>
-                <div class="cta-buttons">
-                    <a href="mailto:khenesh26@gmail.com" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> Open Communication
-                    </a>
-                    <a href="https://linkedin.com/in/henesh-kathresan-58a42426a" target="_blank" class="btn btn-outline">
-                        <i class="fab fa-linkedin-in"></i> LinkedIn
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ============================================================
-    FOOTER
-    ============================================================ -->
-    <footer class="footer" id="contact">
-        <div class="container">
-            <p>
-                &copy; 2026 <strong class="highlight">Henesh Kathresan</strong> —
-                Forged in Wakanda
-            </p>
+            <p>&copy; 2026 <strong class="highlight">Henesh Kathresan</strong> · Built with curiosity &amp; AI.</p>
         </div>
     </footer>
 
-    <!-- ============================================================
-    JAVASCRIPT
-    ============================================================ -->
     <script>
-        // Navbar scroll
         const navbar = document.getElementById('navbar');
-        window.addEventListener('scroll', () => {
-            navbar.classList.toggle('scrolled', window.scrollY > 40);
-        });
-
-        // Hamburger
         const hamburger = document.getElementById('hamburger');
         const navLinks = document.getElementById('navLinks');
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 40);
+        }, { passive: true });
+
         hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('open');
-            hamburger.classList.toggle('active');
+            const open = navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active', open);
+            hamburger.setAttribute('aria-expanded', String(open));
+            hamburger.setAttribute('aria-label', open ? 'Close navigation menu' : 'Open navigation menu');
         });
+
         document.querySelectorAll('.nav-links a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('open');
                 hamburger.classList.remove('active');
+                hamburger.setAttribute('aria-expanded', 'false');
+                hamburger.setAttribute('aria-label', 'Open navigation menu');
             });
         });
 
-        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const target = document.querySelector(this.getAttribute('href'));
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (!href || href === '#') return;
+                const target = document.querySelector(href);
                 if (target) {
                     e.preventDefault();
                     target.scrollIntoView({ behavior: 'smooth', block: 'start' });
